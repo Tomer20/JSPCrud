@@ -19,13 +19,6 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
         <configuration>
-<!--           <webResources>
-            <resource>
-              <directory>src/main/lib</directory>
-              <targetPath>WEB-INF/lib</targetPath>
-              <filtering>true</filtering>
-            </resource>
-          </webResources> -->
           <packagingExcludes>**/tomcat</packagingExcludes>
           <packagingExcludes>**/webapp</packagingExcludes>
         </configuration>
