@@ -4,9 +4,9 @@ services:
     build: db/
     container_name: mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_USER=jspcrud
-      - MYSQL_PASSWORD=Aa123456
+      - MYSQL_ROOT_PASSWORD=<DB_ROOT_PASS>
+      - MYSQL_USER=<DB_USER>
+      - MYSQL_PASSWORD=<DB_PASS>
   web:
     build: app/
     container_name: web
@@ -15,8 +15,8 @@ services:
     links:
       - mysql
     environment:
-      - DB_USER=jspcrud
-      - DB_PASS=Aa123456
+      - DB_USER=<DB_USER>
+      - DB_PASS=<DB_PASS>
   jenkins:
     build: jenkins/
     container_name: jenkins
