@@ -1,5 +1,5 @@
-<%@page import="com.jspcrud.dao.UserDao"%>
-<jsp:useBean id="u" class="com.jspcrud.bean.User"></jsp:useBean>
+<%@page import="com.jspcrud.tomer.dao.UserDao"%>
+<jsp:useBean id="u" class="com.jspcrud.tomer.bean.User"></jsp:useBean>
 <jsp:setProperty property="*" name="u" />
 
 <%

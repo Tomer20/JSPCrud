@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <%@page import="com.jspcrud.dao.UserDao,com.jspcrud.bean.User"%>
+    <%@page import="com.jspcrud.tomer.dao.UserDao,com.jspcrud.tomer.bean.User"%>
 
     <%
 String id=request.getParameter("id");

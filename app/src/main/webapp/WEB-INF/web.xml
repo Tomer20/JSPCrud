@@ -5,7 +5,7 @@
          version="3.1">
     <servlet>
         <servlet-name>jspcrud</servlet-name>
-        <servlet-class>com.jspcrud</servlet-class>
+        <servlet-class>com.jspcrud.tomer</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>jspcrud</servlet-name>

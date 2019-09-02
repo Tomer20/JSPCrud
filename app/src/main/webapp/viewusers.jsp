@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%@page import="com.jspcrud.dao.UserDao,com.jspcrud.bean.*,java.util.*"%>
+<%@page import="com.jspcrud.tomer.dao.UserDao,com.jspcrud.tomer.bean.*,java.util.*"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 
